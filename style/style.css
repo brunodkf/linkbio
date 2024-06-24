@@ -179,7 +179,7 @@ img{
 .dev__perfil ul{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .dev__perfil li{
     display: flex;
@@ -194,4 +194,55 @@ img{
 .dev__perfil ul img{
     border: solid 2px var(--laranja-claro);
     border-radius: 5px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.dev__skills{
+    margin-top: 1.5em;
+}
+.dev__skills p{
+    color: var(--laranja-claro);
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.dev__skills ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .5em;
+}
+.dev__skills li{
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.dev__skills li:nth-child(1){
+    background-image: url(./../assets/html.webp);
+}
+.dev__skills li:nth-child(2){
+    background-image: url(./../assets/css.webp);
+}
+.dev__skills li:nth-child(3){
+    background-image: url(./../assets/js.webp);
+}
+.dev__skills li:nth-child(4){
+    background-image: url(./../assets/react.webp);
+}
+.dev__skills li:nth-child(5){
+    background-image: url(./../assets/ts.webp);
+}
+.dev__skills li:nth-child(6){
+    background-image: url(./../assets/sass.webp);
+}
+.dev__skills li:nth-child(7){
+    background-image: url(./../assets/git.webp);
+}
+.dev__skills li:nth-child(8){
+    background-image: url(./../assets/figma.webp);
+}
+.dev__skills li:nth-child(9){
+    background-image: url(./../assets/tailwind.webp);
 }
