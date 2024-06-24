@@ -4,7 +4,6 @@
 
     /* Cores Principais */
     --preto: #1e1e1e;
-    --preto-escuro: #1b1b1b;
     --cinza: #2c2c2c;
     --branco: #ededed;
     --branco-secundario: #EDEDED;
@@ -247,3 +246,20 @@ img{
 .dev__skills li:nth-child(9){
     background-image: url(./../assets/tailwind.webp);
 }
+
+.dev__socials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.dev__links{
+    background-color: var(--preto);
+}
+.dev__links, .dev__style{
+    width: 50%;
+    max-width: 175px;
+    height: 170px;
+}
+
