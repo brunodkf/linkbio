@@ -211,6 +211,7 @@ img{
     align-items: center;
     justify-content: space-between;
     margin-top: .5em;
+    margin-bottom: .5em;
 }
 .dev__skills li{
     width: 25px;
