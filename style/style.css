@@ -213,8 +213,8 @@ img{
     margin-top: .5em;
 }
 .dev__skills li{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
