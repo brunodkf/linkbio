@@ -322,3 +322,23 @@ img {
 .dev__links li:nth-child(4){
     background-image: url(./../assets/github.webp);
 }
+
+.dev__site{
+    margin-top: 1.5em;
+    background-color: var(--laranja-claro);
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.dev__site p{
+    color: var(--preto);
+    font-weight: 600;
+    letter-spacing: .5px;
+    width: 100%;
+    text-align: center;
+}
+.dev__site img{
+    width: 60px;
+    margin: .5em;
+}
