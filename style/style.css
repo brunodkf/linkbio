@@ -337,9 +337,17 @@ img {
     letter-spacing: .5px;
     width: 60%;
     text-align: center;
-    max-width: 205px;
 }
 .dev__site img{
     width: 60px;
     margin: .5em;
+}
+
+@media screen and (width >= 768px){
+    .dev__site {
+        justify-content: center;
+    }
+    .dev__site p{
+        max-width: 205px;
+    }
 }
